@@ -10,7 +10,7 @@
   <p align="center">
     Toma capturas modernas de cualquier sitio web
     <br />
-    <a href="https://github.com/GonzaloEspindola/beatiful-screenshot">Ver deploy</a>
+    <a href="https://gonzaloespindola.github.io/beatiful-screenshot/">Ver deploy</a>
   </p>
 </div>
 
