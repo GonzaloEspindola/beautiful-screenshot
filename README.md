@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
 
-![](https://i.ibb.co/9rqK3ZK/screenshot-1.png)
+![](https://i.ibb.co/fp4fTnN/screenshot.png)
 
 Toma capturas modernas de cualquier sitio web solo introduciendo la URL, prueba con distintos estilos de ventana y descarga la captura tanto para ordenador como para version movil
 
@@ -41,13 +41,12 @@ Si quieres usar mi portfolio como template para realizar el tuyo, puedes hacerlo
 
 1. Clona el repositorio
    ```sh
-    git clone https://github.com/GonzaloEspindola/portfolio.git
+    git clone https://github.com/GonzaloEspindola/beatiful-screemshot.git
     ```
 2. Instala las dependencias
    ```sh
    npm install
    ```
-3. Carga los datos de tus proyectos en el archivo 'projects.js' en 'src/utils/projects.js'.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
