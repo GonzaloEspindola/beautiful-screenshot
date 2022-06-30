@@ -32,7 +32,7 @@ function Home () {
   const [decore, setDecore] = useState('white')
   const [loader, setLoader] = useState(true)
 
-  const URL_API = 'http://localhost:8080/screenshot/desktop?url='
+  const URL_API = 'https://ancient-basin-38361.herokuapp.com/screenshot/desktop?url='
   const URL_DESKTOP_SIZE = '&width=1280&height=800'
   const URL_MOBILE_SIZE = '&width=390&height=800'
 
