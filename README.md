@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href=>
-    <img src="public/favicon.ico" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/3MGQXzs/circle-icon-g-icon-google-icon-png-favpng-9sq-Ffc-XAbqt-WNPGyn9-R553u-Es.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Beafitul Screenshot</h3>
