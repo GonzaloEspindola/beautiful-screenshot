@@ -28,7 +28,7 @@ function Home () {
     setDecore(option.value)
   }
 
-  const [url, setUrl] = useState('https://screen.guru/')
+  const [url, setUrl] = useState('https://gonzaloespindola.github.io/portfolio')
   const [decore, setDecore] = useState('white')
   const [loader, setLoader] = useState(true)
 
@@ -85,9 +85,9 @@ function Home () {
             <div className='screenshot_desktop'>
               <img alt='white desktop' src={styles.desktopWhite} />
             </div>
-            <div className='screenshot_mobile'>
+            {/* <div className='screenshot_mobile'>
               <img alt='white mobile' src={styles.mobileWhite} />
-            </div>
+            </div> */}
           </div>
 
           <div className={`${loader ? 'active' : 'inactive'}`}>
