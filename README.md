@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href=>
     <img src="public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Portfolio personal</h3>
+  <h3 align="center">Beafitul Screenshot</h3>
 
   <p align="center">
     Toma capturas modernas de cualquier sitio web
