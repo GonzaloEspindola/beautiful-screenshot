@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Bebas+Neue&display=swap');
+
+:root {
+  --primary: #4080b0;
+  --color-primary: #88a0a7;
+  --color-secundary: white;
+  --background: #0d202b;
+  --background-application: #102531;
+  --border: #17313a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo';
+}
+
+.primary_button {
+  text-decoration: none;
+  background: var(--primary);
+  color: var(--color-secundary);
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%), 0 32px 80px rgb(13 0 77 / 8%);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border: 1px solid var(--primary);
+  transition: .5s;
+  font-size: 1.2rem;
+}
+
+.primary_button:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--color-primary);
+}
+
+.primary_button i{
+  margin-right: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.home .info_section h1{
+  color: var(--color-secundary);
+  font-size: 4rem;
+}
+
+.home .info_section h2{
+  color: var(--color-primary);
+  opacity: 0.8;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.home .info_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+
+.home .info_section input {
+  width: 350px;
+  padding: 15px;
+  margin: 30px 0;
+  font-size: 1.2rem;
+}
+
+.home .info_section div {
+  display: flex;
+  width: 350px;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+
+.home .info_section div img{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.home .info_section button{
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.application {
+  border: 3px solid var(--border);
+  margin-top: 50px;
+  background-color: var(--background-application);
+  box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.45);
+}
+
+.application .application_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom:  3px solid var(--border);
+}
+
+.application .application_header select, .application .application_header input, .application .application_header button{
+  border: none;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.application .application_header input {
+}
+
+.application .application_header input:focus {
+  outline: none;
+}
+
+.application .application_header div{
+  display: flex;
+  align-items: center;
+}
+
+
+.screenshot_container {
+  position: relative;
+  height: 575px;
+  width: 1200px;
+}
+
+.screenshot_container .screenshot{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+}
+
+.screenshot_container .screenshot img{
+  width: 100%;
+}
+
+.screenshot_container .screenshot .screenshot_mobile {
+  display: flex;
+  height: 100%;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.theme_select {
+  padding: 5px;
+  color: var(--color-primary);
+  border: 1px solid var(--border);
+}
+
+.theme_select i {
+  border-right: 1px solid var(--border);
+  padding: 5px;
+}
+
+.theme_select select{
+  color: var(--color-primary);
+  background-color: var(--background-application);
+}
+
+.theme_select select:focus{
+  outline: none;
+}
+
+.input_container{
+  padding: 5px;
+  color: var(--color-primary);
+  border: 1px solid var(--border);
+}
+
+.input_container i {
+  border-right: 1px solid var(--border);
+  padding: 5px;
+}
+
+.input_container input{
+  color: var(--color-primary);
+  padding: 5px;
+  background-color: var(--background-application);
+  border: 3px solid var(--border);
+  border: none;
+}
+
+.input_container select:focus{
+  outline: none;
+}
