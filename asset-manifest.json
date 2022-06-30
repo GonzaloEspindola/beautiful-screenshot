@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/beatiful-screenshot/static/css/main.664178b0.css",
+    "main.js": "/beatiful-screenshot/static/js/main.345dbf4d.js",
+    "static/media/Loading.gif": "/beatiful-screenshot/static/media/Loading.c5cbb0c37cdd8ec5deaf.gif",
+    "index.html": "/beatiful-screenshot/index.html",
+    "main.664178b0.css.map": "/beatiful-screenshot/static/css/main.664178b0.css.map",
+    "main.345dbf4d.js.map": "/beatiful-screenshot/static/js/main.345dbf4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.664178b0.css",
+    "static/js/main.345dbf4d.js"
+  ]
+}
