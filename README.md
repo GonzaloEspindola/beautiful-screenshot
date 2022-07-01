@@ -5,7 +5,7 @@
     <img src="https://i.ibb.co/3MGQXzs/circle-icon-g-icon-google-icon-png-favpng-9sq-Ffc-XAbqt-WNPGyn9-R553u-Es.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Beafitul Screenshot</h3>
+  <h3 align="center">Beautiful Screenshot</h3>
 
   <p align="center">
     Toma capturas modernas de cualquier sitio web
@@ -37,11 +37,9 @@ Toma capturas modernas de cualquier sitio web solo introduciendo la URL, prueba 
 
 ### Instalacion
 
-Si quieres usar mi portfolio como template para realizar el tuyo, puedes hacerlo perfectamente.
-
 1. Clona el repositorio
    ```sh
-    git clone https://github.com/GonzaloEspindola/beatiful-screemshot.git
+    git clone https://github.com/GonzaloEspindola/beautiful-screenshot.git
     ```
 2. Instala las dependencias
    ```sh
