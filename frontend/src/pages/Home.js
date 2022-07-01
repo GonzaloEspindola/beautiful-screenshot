@@ -25,7 +25,7 @@ function Home () {
   function changeDecorate () {
     const option = document.getElementById('selectDecorate')
     setLoader(true)
-    setDecore(option.value)
+    setDecore(option.value.toLowerCase())
   }
 
   const [url, setUrl] = useState('https://gonzaloespindola.github.io/portfolio')
@@ -83,7 +83,7 @@ function Home () {
         <div className='screenshot_container'>
           <div className='screenshot'>
             <div className='screenshot_desktop'>
-              <img alt='white desktop' src={styles.desktopWhite} />
+              <img alt='screenshot image' src={styles.desktopWhite} />
             </div>
             {/* <div className='screenshot_mobile'>
               <img alt='white mobile' src={styles.mobileWhite} />
