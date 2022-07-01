@@ -52,7 +52,7 @@ function Home () {
   return (
     <section className='home'>
       <div className='info_section'>
-        <h1>BeatifulScreenshot</h1>
+        <h1>Beautiful Screenshot</h1>
         <h2>Generate styled screenshots for any website from its URL.</h2>
         <a className='primary_button' href='https://github.com/GonzaloEspindola/beatiful-screenshot' target='_blank' rel='noreferrer'><i class='bx bxl-github' /> Repository</a>
       </div>
@@ -74,8 +74,8 @@ function Home () {
           </div>
 
           <div>
-            <a className='primary_button' onClick={() => downloadImage(styles.desktopWhite)}><i class='bx bxs-download' /> Download desktop</a>
-            <a className='primary_button' onClick={() => downloadImage(styles.mobileWhite)}><i class='bx bxs-download' />Download mobile</a>
+            <a className='primary_button' onClick={() => downloadImage(styles.desktopWhite)}><i class='bx bxs-download' /> Download screenshot</a>
+            {/* <a className='primary_button' onClick={() => downloadImage(styles.mobileWhite)}><i class='bx bxs-download' />Download mobile</a> */}
           </div>
 
         </div>
